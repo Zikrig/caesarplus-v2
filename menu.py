@@ -3,7 +3,7 @@ from caesar import caesar_hard as ch
 def shifr():
     print("Введите вашу фразу:")
     phrase = input()
-
+    print("Это Фёдор Гризик, и если это не я показываю вам лабу, то у кого-то проблемы)")
     print("Y для простого шифра. N для сложного.")
 
     if (input().lower() == "n"):
